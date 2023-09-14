@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 const app=express();
 
 const corsOptions = {
-  origin: 'https://deploying-test-yuvrajsingh.vercel.app/',
+  origin: 'https://deploying-test-yuvrajsingh.vercel.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, 
 };
