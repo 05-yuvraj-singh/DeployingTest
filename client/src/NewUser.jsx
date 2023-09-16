@@ -9,7 +9,7 @@ const NewUser = () => {
       setSignInSucessful(false)}, 3000);
   }
   function putData() {
-    fetch("https://deploying-test-api.vercel.app/signup", {
+    fetch("https://api-deployed.onrender.com/signup", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
