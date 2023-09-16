@@ -16,7 +16,7 @@ const Login = () => {
   }
 
   function tryLogin() {
-    fetch("https://deploying-test-api.vercel.app/signin", {
+    fetch("https://api-deployed.onrender.com/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
