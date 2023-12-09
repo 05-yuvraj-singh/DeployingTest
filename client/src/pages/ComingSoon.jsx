@@ -19,13 +19,17 @@ const ComingSoon = () => {
       <Heading
         as="h1"
         size="2xl"
-        mt={{ base: 8, md: 0 }}
-        color="#2980b9" 
+        mt={{ base: 4, md: 0 }} // Adjust margin-top for both base and medium screens
+        color="#2980b9"
         letterSpacing="0.1em"
       >
-        COMING SOON
+        COMING SOON !
       </Heading>
-      <Text fontSize="lg" color="#333333">
+      <Text
+        fontSize="lg"
+        color="#333333"
+        mt={{ base: 4, md: 0 }} // Adjust margin-top for both base and medium screens
+      >
         Welcome to Hextrend! The website is under construction and will be
         live soon. Get ready for an exciting experience!
       </Text>
